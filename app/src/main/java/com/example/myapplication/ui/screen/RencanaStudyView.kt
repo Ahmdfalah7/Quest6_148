@@ -46,6 +46,7 @@ fun RencanaStudiView(
     mahasiswa: Mahasiswa,
     onSubmitButtonClicked: (MutableList<String>) -> Unit,
     onBackButtonClicked: () -> Unit,
+
 ){
     var chosenDropdown by remember {
         mutableStateOf("")
