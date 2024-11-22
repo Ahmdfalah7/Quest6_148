@@ -22,3 +22,4 @@ class MahasiswaViewModel: ViewModel() {
         }
     }
 }
+
