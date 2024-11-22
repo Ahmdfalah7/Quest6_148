@@ -58,3 +58,20 @@ fun TampilanData(
     }
 }
 
+@Composable
+fun TampilData(
+    judul: String,
+    isinya: String
+) {
+    Row (
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(judul, modifier = Modifier.weight(1f))
+        Text(":", modifier = Modifier.weight(0.1f))
+        Text(isinya, modifier = Modifier.weight(2f))
+    }
+}
